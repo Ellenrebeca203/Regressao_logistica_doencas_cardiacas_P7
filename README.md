@@ -22,16 +22,15 @@ Fazer a previsão da variável target 'cardio_disease' que indica pacientes que 
 2. Análise exploratória dos dados:
    Nesta etapa foram utilizados gráficos de barras e boxplot para analisar o comportamento das variáveis de maneira individual, e análise bivariada para observar o a relação delas entre si. Em seguinda foi plotada a Matriz de Correlação. 
 
-3. Separação das bases em treino e teste 
-   Foi feita a separação das bases de treino e teste através da biblioteca Sklearn, importando a classe train_test_split
+3. Separação das bases em treino e teste: Foi feita a separação das bases de treino e teste através da biblioteca Sklearn, importando a classe train_test_split
 
-4. Padronização
+5. Padronização
    Devido a natureza dos dados com escalas distantes, as features foram padronizadas com o StandardScaler.
 
-5. Treinanento do Modelo de Regressão Logística
+6. Treinanento do Modelo de Regressão Logística
    Por se tratar de uma classificação binária, utilizou-se o modelo de Regressão Logística, que foi treinado com as variáveis independentes e a target.
 
-6. Avaliação do Modelo
+7. Avaliação do Modelo
    Foram utilizadas as métricas de Acurácia, Recall, Precisão e F1 score para avaliar o desempenho do modelo.
 
 ## Resultado
