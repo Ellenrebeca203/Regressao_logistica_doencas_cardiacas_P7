@@ -1,0 +1,2 @@
+# Regressao_logistica_doencas_cardiacas_P7
+Regressão Logistica 
